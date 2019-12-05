@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<!--[if IE 9]>         <html class="ie9 no-focus" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-focus" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title>Survey</title>
+
+  <meta name="description" content="OneUI - Admin Dashboard Template &amp; UI Framework created by pixelcave and published on Themeforest">
+  <meta name="author" content="pixelcave">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+
+  <!-- Icons -->
+  <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
+  <link rel="shortcut icon" href="../../assets/img/favicons/favicon.png">
+
+  <link rel="icon" type="image/png" href="../../assets/img/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="../../assets/img/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="../../assets/img/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="../../assets/img/favicons/favicon-160x160.png" sizes="160x160">
+  <link rel="icon" type="image/png" href="../../assets/img/favicons/favicon-192x192.png" sizes="192x192">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="../../assets/img/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../../assets/img/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../../assets/img/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../../assets/img/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../../assets/img/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../../assets/img/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../../assets/img/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../../assets/img/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../assets/img/favicons/apple-touch-icon-180x180.png">
+  <!-- END Icons -->
+
+  <!-- Stylesheets -->
+  <!-- Web fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400italic,600,700%7COpen+Sans:300,400,400italic,600,700">
+
+  <!-- Bootstrap and OneUI CSS framework -->
+  <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" id="css-main" href="../../assets/css/oneui.css">
+
+  <!-- You can include a specific file from css/themes/ folder to alter the default color theme of the template. eg: -->
+  <!-- <link rel="stylesheet" id="css-theme" href="assets/css/themes/flat.min.css"> -->
+  <!-- END Stylesheets -->
+</head>
+<body class="image">
+<!-- Page Container -->
+<div id="page-container1" class="sidebar-l side-scroll header-navbar-fixed">
+  <!-- Side Overlay-->
+  <aside id="side-overlay">
+    <!-- Side Overlay Scroll Container -->
+    <div id="side-overlay-scroll">
+
+
+      <!-- Side Content -->
+      <div class="side-content remove-padding-t">
+        <!-- Account -->
+        <div class="block pull-r-l">
+          <div class="block-header bg-gray-lighter">
+            <ul class="block-options">
+              <li>
+                <button type="button" data-toggle="block-option" data-action="content_toggle"></button>
+              </li>
+            </ul>
+            <h3 class="block-title">Account</h3>
+          </div>
+
+        </div>
+        <!-- END Account -->
+
+
+      </div>
+      <!-- END Side Content -->
+    </div>
+    <!-- END Side Overlay Scroll Container -->
+  </aside>
+  <!-- END Side Overlay -->
+
+  <!-- Header -->
+  <!--<header>
+    <div class="content-mini content-mini-full content-boxed">
+      &lt;!&ndash; Header Navigation Right &ndash;&gt;
+      <ul class="nav-header pull-right">
+        <li class="visible-xs">
+          &lt;!&ndash; Toggle class helper (for .js-header-search below), functionality initialized in App() -> uiToggleClass() &ndash;&gt;
+          <button class="btn btn-default" data-toggle="class-toggle" data-target=".js-header-search" data-class="header-search-xs-visible" type="button">
+            <i class="fa fa-search"></i>
+          </button>
+        </li>
+
+        <li>
+          &lt;!&ndash; Layout API, functionality initialized in App() -> uiLayoutApi() &ndash;&gt;
+          &lt;!&ndash;<button class="btn btn-default btn-image" data-toggle="layout" data-action="side_overlay_toggle" type="button">
+            <img src="../../assets/img/avatars/avatar9.jpg" alt="Avatar">
+            <i class="fa"></i>
+          </button>&ndash;&gt;
+        </li>
+      </ul>
+      &lt;!&ndash; END Header Navigation Right &ndash;&gt;
+
+      &lt;!&ndash; Header Navigation Left &ndash;&gt;
+      <ul class="nav-header pull-left">
+        <li class="header-content">
+          <a class="h5" href="index.html">
+
+          </a>
+        </li>
+        <li>
+          &lt;!&ndash; Themes functionality initialized in App() -> uiHandleTheme() &ndash;&gt;
+         &lt;!&ndash; <div class="btn-group">
+            <button class="btn btn-link text-gray dropdown-toggle" data-toggle="dropdown" type="button">
+              <i class="si si-drop"></i>
+            </button>
+          </div>&ndash;&gt;
+        </li>
+      </ul>
+      &lt;!&ndash; END Header Navigation Left &ndash;&gt;
+    </div>
+  </header>-->
+  <!-- END Header -->
+
+  <!-- Main Container -->
+  <main id="">
+    <!-- Sub Header -->
+    <div class="bg-gray-lighter visible-xs">
+      <div class="content-mini content-boxed">
+        <button class="btn btn-block btn-default visible-xs push" data-toggle="collapse" data-target="#sub-header-nav">
+          <i class="fa fa-navicon push-5-r"></i>Menu
+        </button>
+      </div>
+    </div>
+    <div class="bg-primary-lighter collapse navbar-collapse remove-padding" id="sub-header-nav">
+     <!-- <div class="content-mini content-boxed">
+        <ul class="nav nav-pills nav-sub-header push">
+          <li class="active">
+
+            <h3>ChatBot Survey</h3>
+
+          </li>
+        </ul>
+      </div>-->
+    </div>
+    <!-- END Sub Header -->
+
+    <!-- Page Content -->
+    <div class="content content-boxed">
+      <!-- Section -->
+      <div class="bg-image img-rounded overflow-hidden push" style="background-image: url('../../assets/img/photos/photo29@2x.jpg');">
+        <div class="bg-black-op-text">
+          <div class="content">
+            <div class="block block-transparent block-themed text-center">
+              <div class="logoNew">
+              </div>
+              <div class="login-button">
+                <button type="button" class="btn btn-block btn-style" (click)="logout()">logout</button>
+                <!--<button mat-raised-button (click)="logout()">
+                  <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
+                  <mat-icon>account_circle</mat-icon>Logout</button>-->
+              </div>
+              <div class="block-content heading-align">
+                <h1 class="h1 font-w700 bg-black-op-text animated fadeInDown push-5">Dashboard</h1>
+                <h2 class="h4 font-w400 bg-black-op-text animated fadeInUp">Welcome Administrator.</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END Section -->
+
+      <!-- Charts -->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="block block-rounded block-opt-refresh-icon8">
+            <div class="block-header">
+              <ul class="block-options">
+                <li>
+                  <button type="button" data-toggle="block-option" data-action="refresh_toggle" data-action-mode="demo">
+                    <!--<i class="si si-refresh"></i>--></button>
+                </li>
+              </ul>
+              <h3 class="block-title">Manage Organisations</h3>
+            </div>
+            <div class="content-mini content-boxed">
+              <ul class="nav nav-pills nav-sub-header push">
+                <li class="active">
+                  <button type="button" class="btn btn-block btn-style" (click)="showAddOrg();"> Add Organisation</button>
+                </li>
+                <li>
+                  <button type="button" class="btn btn-block btn-style" (click)="showEditOrg();"> Edit Organisation</button>
+                </li>
+                <li>
+                  <button type="button" class="btn btn-block btn-style" (click)="showDelOrg();"> Delete Organisation</button>
+                </li>
+              </ul>
+            </div>
+            <div class="block-content block-content-full bg-gray-lighter" *ngIf="addShown">
+              <!-- Chart.js Charts (initialized in js/pages/base_pages_dashboard_v2.js), for more examples you can check out http://www.chartjs.org/docs/ -->
+              <h2>Add Organisation</h2>
+              <form class="js-validation-login form-horizontal push-30-t push-50" [formGroup]="addOrgForm" (ngSubmit)="onFormSubmit(addOrgForm.value)" method="post">
+              <div class="form-group">
+                <div class="col-lg-6 col-lg-offset-3 input-group new-margin form-margin">
+                  <mat-form-field class="example-full-width">
+                    <input matInput placeholder="Organisation Name" formControlName="g_orgName" id="g_orgName" #orgName>
+                  </mat-form-field>
+                  <br>
+                  <mat-form-field class="example-full-width">
+                    <input matInput type="text" placeholder="City" formControlName="g_city" id="g_city" #city>
+                  </mat-form-field>
+                  <br>
+                  <mat-form-field class="example-full-width">
+                    <input matInput type="text" placeholder="State" formControlName="g_state" id="g_state"  #state>
+                  </mat-form-field>
+                  <br>
+                  <mat-form-field class="example-full-width">
+                    <input matInput type="text" placeholder="ZipCode" formControlName="g_zip" id="g_zip" #zip>
+                  </mat-form-field>
+
+                </div>
+                <div class="form-group">
+                  <div class="col-xs-12 col-sm-6 col-md-4">
+                    <!--<input type = "submit" value = "submit">-->
+                   <button type="button" class="btn btn-block btn-style add-button" (click)="addOrg(addOrgForm.value);" > Add</button>
+                  </div>
+                </div>
+              </div>
+              </form>
+              <!--<div style="height: 320px;"><canvas class="js-dash-chartjs-earnings"></canvas></div>-->
+            </div>
+
+            <div class="block-content block-content-full bg-gray-lighter" *ngIf="editShown">
+              <!-- Chart.js Charts (initialized in js/pages/base_pages_dashboard_v2.js), for more examples you can check out http://www.chartjs.org/docs/ -->
+              <h2>Edit Organisation</h2>
+              <form class="js-validation-login form-horizontal push-30-t push-50" [formGroup]="editOrgForm" (ngSubmit)="onFormSubmit(editOrgForm.value)" method="post">
+              <div class="form-group">
+                <div class="col-lg-6 col-lg-offset-3 input-group new-margin form-margin">
+                  <mat-form-field>
+                    <mat-label>Organisation Name :</mat-label>
+                    <mat-select id="eorgName" formControlName="eorgName" [(ngModel)]="selectedOrg" (ngModelChange)="getSelected()" #eorgName>
+                      <mat-option *ngFor="let org of orgList" [value]="org">{{org}}</mat-option>
+                    </mat-select>
+                  </mat-form-field>
+                  <!--<mat-form-field>
+                    <mat-label>Organisation Name :</mat-label>
+                    <mat-select  multiple id="eorgName" formControlName="eorgName"  (change)="getSelected($event.target.value)" #eorgName>
+                      <mat-option>-&#45;&#45;Select-&#45;&#45;</mat-option>
+                      <mat-option>umkc</mat-option>
+                      <mat-option>ksu</mat-option>
+                      <mat-option>calvary</mat-option>
+                    </mat-select>
+                  </mat-form-field>-->
+               <!--   Organisation Name : <select class="form-control" id="eorgName" formControlName="eorgName" [(ngModel)]="orgDet.g_orgName" (change)="getSelected($event.target.value)" #eorgName>
+                  <option>-&#45;&#45;Select-&#45;&#45;</option>
+                  <option>umkc</option>
+                  <option>ksu</option>
+                  <option>calvary</option>
+                </select>-->
+                  <br>
+                  <div *ngIf="showOrg">
+                    <mat-form-field class="example-full-width">
+                    <input matInput type="text" placeholder="City" [(ngModel)]="orgDet.g_city" formControlName="e_city" id="e_city" #ecity>
+                    </mat-form-field>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                    <input matInput type="text" placeholder="State" [(ngModel)]="orgDet.g_state" formControlName="e_state" id="e_state" #estate>
+                    </mat-form-field>
+                    <br>
+                    <mat-form-field class="example-full-width">
+                    <input matInput type="text" placeholder="ZipCode" [(ngModel)]="orgDet.g_zip" formControlName="e_zip" id="e_zip" #ezip>
+                    </mat-form-field>
+                    <br>
+                    <div class="form-group">
+                      <div class="col-xs-12 col-sm-6 col-md-4 button-padding">
+                        <button type="button" class="btn btn-block btn-style add-button" (click)="saveOrganisation(editOrgForm.value);" > Save</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group" *ngIf="showButton">
+                  <div class="col-xs-12 col-sm-6 col-md-4">
+                    <button type="button" class="btn btn-block btn-style add-button" (click)="editOrg();"> Edit</button>
+                  </div>
+                </div>
+              </div>
+              </form>
+              <div style="height: 320px;"><canvas class="js-dash-chartjs-earnings"></canvas></div>
+            </div>
+
+            <div class="block-content block-content-full bg-gray-lighter" *ngIf="delShown">
+              <!-- Chart.js Charts (initialized in js/pages/base_pages_dashboard_v2.js), for more examples you can check out http://www.chartjs.org/docs/ -->
+              <h2>Delete Organisation</h2>
+              <form class="js-validation-login form-horizontal push-30-t push-50" [formGroup]="delOrgForm" (ngSubmit)="onFormSubmit(delOrgForm.value)" method="post">
+              <div class="form-group">
+                <div class="col-lg-6 col-lg-offset-3 input-group new-margin form-margin">
+                  <mat-form-field>
+                    <mat-label>Organisation Name :</mat-label>
+                    <mat-select id="dorgName" formControlName="dorgName" [(ngModel)]="selectedDelOrg" (ngModelChange)="deleteSelected()" #dorgName>
+                      <mat-option *ngFor="let org of orgList" [value]="org">{{org}}</mat-option>
+                    </mat-select>
+                  </mat-form-field>
+
+                  <!--<mat-form-field>
+                    <mat-label>Organisation Name :</mat-label>
+                    <mat-select  multiple id="dorgName" formControlName="dorgName" (change)="deleteSelected($event.target.value)" #dorgName>
+                      <mat-option>-&#45;&#45;Select-&#45;&#45;</mat-option>
+                      <mat-option>umkc</mat-option>
+                      <mat-option>ksu</mat-option>
+                      <mat-option>calvary</mat-option>
+                    </mat-select>
+                  </mat-form-field>-->
+
+                 <!-- Organisation Name : <select class="form-control" id="dorgName" #dorgName formControlName="dorgName" (change)="deleteSelected($event.target.value)">
+                  <option>-&#45;&#45;Select-&#45;&#45;</option>
+                  <option>umkc</option>
+                  <option>ksu</option>
+                  <option>calvary</option>
+                </select>-->
+
+                </div>
+                <div class="form-group">
+                  <div class="col-xs-12 col-sm-6 col-md-4">
+                    <button type="button" class="btn btn-block btn-style add-button" (click)="delOrg();" > Delete</button>
+                  </div>
+                </div>
+              </div>
+              </form>
+              <div style="height: 320px;"><canvas class="js-dash-chartjs-earnings"></canvas></div>
+            </div>
+
+
+            <div class="block-content text-center">
+              <div class="row items-push-2x text-center push-20-t">
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="block block-rounded block-opt-refresh-icon8">
+            <div class="block-header">
+              <ul class="block-options">
+                <li>
+                  <button type="button" data-toggle="block-option" data-action="refresh_toggle" data-action-mode="demo">
+                    <!--<i class="si si-refresh"></i>--></button>
+                </li>
+              </ul>
+              <h3 class="block-title"></h3>
+            </div>
+            <div class="block-content block-content-full bg-gray-lighter text-center umkc-img">
+              <!-- Chart.js Charts (initialized in js/pages/base_pages_dashboard_v2.js), for more examples you can check out http://www.chartjs.org/docs/ -->
+              <!--<div style="height: 320px;"><canvas class="js-dash-chartjs-sales">
+
+              </canvas></div>-->
+            </div>
+            <div class="block-content block-content-full bg-gray-lighter text-center calvary-img"></div>
+            <div class="block-content text-center">
+              <div class="row items-push-2x text-center push-20-t">
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END Charts -->
+    </div>
+    <!-- END Page Content -->
+  </main>
+  <!-- END Main Container -->
+
+  <!-- Footer -->
+  <footer id="page-footer" class="bg-body font-s12">
+
+  </footer>
+  <!-- END Footer -->
+</div>
+<!-- END Page Container -->
+
+<!-- OneUI Core JS: jQuery, Bootstrap, slimScroll, scrollLock, Appear, CountTo, Placeholder, Cookie and App.js -->
+<script src="../../assets/js/core/jquery.min.js"></script>
+<script src="../../assets/js/core/bootstrap.min.js"></script>
+<script src="../../assets/js/core/jquery.slimscroll.min.js"></script>
+<script src="../../assets/js/core/jquery.scrollLock.min.js"></script>
+<script src="../../assets/js/core/jquery.appear.min.js"></script>
+<script src="../../assets/js/core/jquery.countTo.min.js"></script>
+<script src="../../assets/js/core/jquery.placeholder.min.js"></script>
+<script src="../../assets/js/core/js.cookie.min.js"></script>
+<script src="../../assets/js/app.js"></script>
+
+<!-- Page Plugins -->
+<script src="../../assets/js/plugins/chartjs/Chart.min.js"></script>
+
+<!-- Page JS Code -->
+<script src="../../assets/js/pages/base_pages_dashboard_v2.js"></script>
+<script>
+    jQuery(function () {
+        // Init page helpers (CountTo plugin)
+        App.initHelpers('appear-countTo');
+    });
+</script>
+</body>
+</html>

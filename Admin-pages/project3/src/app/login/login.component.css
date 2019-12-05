@@ -1,0 +1,58 @@
+.image{
+  height:71.7em; background-size:cover; width:100%;
+  background-image:url('~images/chatbot5.jpg');
+  background-position:50% 50%;
+}
+.rounded{
+  border-radius: 25px !important;
+}
+.top-rounded{
+  border-radius: 25px 25px 0 0;
+}
+.midnight-blue
+{
+  background-color: midnightblue;
+}
+.login-position
+{
+  width: 65%;
+  margin-top: 28%;
+}
+.left-auto
+{
+  float: left;
+  width: auto !important;
+}
+.right-auto
+{
+  float: right;
+  width: auto !important;
+  margin-top: 0px !important;
+}
+.buttons-div
+{
+  width: 100% !important;
+  position: absolute !important;
+  max-width: 55% !important;
+}
+.btn-style
+{
+  color: #fff;
+  background-color: midnightblue;
+  border-color: midnightblue !important;
+  border-radius: 11px !important;
+}
+button:hover{
+  color: #fff !important;
+}
+.logoNew
+{
+  background-image:url('~images/ChatBotLogo2.JPG');
+  width: 166px;
+  height: 177px;
+  float: left;
+}
+.mat-width
+{
+  width: 100%;
+}

@@ -1,0 +1,52 @@
+.example-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+  min-width: 300px;
+  overflow: auto;
+}
+
+.isbn-col {
+  flex: 0 0 100px !important;
+  white-space: unset !important;
+}
+
+.button-row {
+  margin: 10px 0;
+}
+.logoNew
+{
+  background-image:url('images/ChatBotLogo2.jpg');
+  width: 166px;
+  height: 177px;
+  float: left;
+}
+.logoNew
+{
+  background-image:url('images/ChatBotLogo2.jpg');
+  width: 166px;
+  height: 177px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.image{
+  height:71.7em; background-size:cover; width:111%;
+  background-image:url('images/chatbot5.jpg');
+  background-position:50% 50%;
+  margin-left: -95px;
+  overflow: hidden;
+}
+.wheat
+{
+  color: #dbdad8 !important;
+}
+.welcome-div
+{
+  margin-left: 27%;
+}
+.survey-button
+{
+  margin-left: 40%;
+}

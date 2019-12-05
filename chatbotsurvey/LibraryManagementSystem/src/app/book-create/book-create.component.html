@@ -1,0 +1,35 @@
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="image body-margin">
+<div class="logoNew">
+</div>
+<div class="chatbot" >
+  <h2> Review Bot </h2>
+  <span class="userMessage">
+  <div  class="messagefrom" *ngFor="let h of messageArray">
+    <div *ngIf="h.value != '' " >
+      <div class="message" [ngClass]="{ 'from': h.user === 'Bot',
+                                    'to':   h.user === 'You' }">
+    {{ h.value }}
+        </div>
+  </div>
+</div >
+    </span>
+</div>
+<form  [formGroup]="bookForm"  (ngSubmit)="onFormSubmit(bookForm.value)" class="type-width">
+  <mat-form-field class="example-full-width wheat border-radius">
+    <input [(ngModel)]="answer" matInput placeholder="Type Here..." formControlName="isbn"
+           [errorStateMatcher]="matcher">
+    <mat-error>
+      <span *ngIf="!bookForm.get('isbn').valid && bookForm.get('isbn').touched">Please enter Message</span>
+    </mat-error>
+  </mat-form-field>
+  <div class="button-row">
+    <button type="submit" [disabled]="!bookForm.valid" (keyup.enter)="onFormSubmit(bookForm.value)" mat-raised-button class="wheat border-radius">
+      SEND
+    </button>
+  </div>
+</form>
+</body>

@@ -1,0 +1,114 @@
+.button-padding{
+  padding-top: 8%;
+}
+.image{
+  height:71.7em; background-size:cover; width:100%;
+  background-image:url('~images/chatbot5.jpg');
+  background-position:50% 50%;
+}
+.logoNew
+{
+  background-image:url('~images/ChatBotLogo2.JPG');
+  width: 166px;
+  height: 177px;
+  float: left;
+}
+.umkc-img
+{
+  background-image:url('~images/prof.jpg');
+  width: 475px;
+  height: 249px;
+}
+.calvary-img
+{
+  background-image:url('~images/questions.jpg');
+  width: 454px;
+  height: 303px;
+  margin-top: 3% !important;
+}
+.center-align
+{
+  text-align: center;
+}
+.rounded{
+  border-radius: 25px !important;
+}
+.top-rounded{
+  border-radius: 25px 25px 0 0;
+}
+.midnight-blue
+{
+  background-color: midnightblue;
+}
+.regis-position
+{
+  width: 65%;
+  margin-top: 5%;
+  margin-left: 11%;
+}
+.left-auto
+{
+  float: left;
+  width: auto !important;
+}
+.right-auto
+{
+  float: right;
+  width: auto !important;
+  margin-top: 0px !important;
+}
+.buttons-div
+{
+  width: 100% !important;
+  position: absolute !important;
+  max-width: 55% !important;
+}
+.btn-style
+{
+  color: #fff;
+  background-color: midnightblue;
+  border-color: midnightblue !important;
+  border-radius: 11px !important;
+}
+.btn-style:hover{
+  color: #fff !important;
+}
+.block
+{
+  display: block !important;
+}
+#page-container1
+{
+  margin: 0 auto;
+  width: 100%;
+  min-width: 320px;
+}
+.bg-black-op-text
+{
+  color: #646464;
+}
+.new-margin
+{
+  margin-left: 4% !important;
+}
+.add-button
+{
+  width: inherit;
+  margin-left: 44%;
+}
+.form-margin
+{
+  margin-bottom: 20px;
+}
+.mat-width
+{
+  width : 290px;
+}
+.heading-align
+{
+  margin-left: -8% !important;
+}
+.login-button
+{
+  margin-left: 87%;
+}

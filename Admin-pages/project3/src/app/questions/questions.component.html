@@ -1,0 +1,32 @@
+<h2>Questions</h2>
+<form class="js-validation-login form-horizontal push-30-t push-50" [formGroup]="quesSelForm" (ngSubmit)="onFormSubmit(quesSelForm.value)" method="post">
+<div class="d-flex justify-content-between">
+  <div *ngFor="let question of quesSets">
+    <div>
+    <mat-radio-button value={{question.qSet}} formControlName="quesSet" (change)="onSelectionChange(question.qSet)">{{question.qSet}}</mat-radio-button>
+    <ul>
+      <li>
+        {{question.q1}}
+      </li>
+      <li>
+        {{question.q2}}
+      </li>
+      <li>
+        {{question.q3}}
+      </li>
+      <li>
+        {{question.q4}}
+      </li>
+      <li>
+        {{question.q5}}
+      </li>
+
+    </ul>
+    </div>
+  </div>
+</div>
+</form>
+<button mat-button  (click)="onClose()" class="right" color="primary">
+  <mat-icon>Select</mat-icon>
+</button>
+
