@@ -28,7 +28,7 @@
     "core-js": "^3.3.3",
     "dateformat": "^3.0.3",
     "express": "^4.17.1",
-    "highcharts": "^7.2.1",
+    "highcharts": "^9.0.0",
     "highcharts-angular": "^2.4.0",
     "http-errors": "^1.7.3",
     "mongoose": "^5.7.6",
